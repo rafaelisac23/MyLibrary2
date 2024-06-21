@@ -14,9 +14,7 @@ namespace MyLibrary2.Model
         [StringLength(150)]
         public string? Nome { get; set; }
 
-
-        [DataType(DataType.Date)]
-        public DateTime Data_nasc { get; set; }
+        public DateOnly Data_nasc { get; set; }
 
         [StringLength(100)]
         public string? Nacionalidade { get; set; }

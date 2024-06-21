@@ -20,8 +20,10 @@ namespace MyLibrary2.Model
         public int GeneroId { get; set; }
         public Genero? Genero { get; set; }
 
-        public int EditorId { get; set; }
+        public int EditoraId { get; set; }
         public Editora? Editora { get; set; }
+
+        public DateOnly Data_publi { get; set; }
 
         public ICollection<Emprestimo>? Emprestimos { get; set;}
     }
